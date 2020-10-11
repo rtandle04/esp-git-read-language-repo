@@ -20,7 +20,8 @@ Example data:-
 
 The DTO to refer:-
 GitHubResponseDTO {
- /** Project Id*/
+
+	/** Project Id*/
 	private Long projectId;
 	
 	/** Project Name*/
