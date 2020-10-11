@@ -1,4 +1,4 @@
-project :- esp-git-language-repo
+project :- esp-git-read-language-repo
 
 GET request in local:- http://localhost:8080/readGitRepos?language=java
 
