@@ -10,6 +10,7 @@ https://api.github.com/search/repositories?q=language:"+language+"&sort=stars&or
 
 For a given language it will return the list of below attributes I just copied one GitHubResponseDTO(Please check this class for more info) object for java value.
 
+Example data:- 
  "projectId": 267775629,
  "name": "hello-algorithm",
  "url": "https://api.github.com/users/geekxh",
@@ -17,6 +18,7 @@ For a given language it will return the list of below attributes I just copied o
  "full_name": "geekxh/hello-algorithm",
  "html_url": "https://github.com/geekxh/hello-algorithm"
 
+The DTO to refer:-
 GitHubResponseDTO {
  /** Project Id*/
 	private Long projectId;
