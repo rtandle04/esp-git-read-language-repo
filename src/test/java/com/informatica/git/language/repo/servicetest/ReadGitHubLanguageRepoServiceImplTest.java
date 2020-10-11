@@ -1,4 +1,4 @@
-package com.bulk.data;
+package com.informatica.git.language.repo.servicetest;
 
 import java.util.Arrays;
 
@@ -19,8 +19,8 @@ import org.springframework.web.client.RestTemplate;
 import com.informatica.git.language.repo.dto.GitHubRestEndpointResponse;
 import com.informatica.git.language.repo.service.ReadGitHubLanguageRepoServiceImpl;
 
-@SpringBootTest(classes=EspBulkDataUploadApplicationTests.class)
-class EspBulkDataUploadApplicationTests {
+@SpringBootTest(classes=ReadGitHubLanguageRepoServiceImplTest.class)
+class ReadGitHubLanguageRepoServiceImplTest {
 	
 	
 
